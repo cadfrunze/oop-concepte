@@ -1,6 +1,7 @@
 # Exercițiul 1 – Ușor
 # Scrie o funcție care primește o listă de numere și returnează suma elementelor pare:
 # lista = [1, 2, 3, 4, 5, 6]
+
 from typing import List
 
 def suma(lista: List[int])->int:
