@@ -49,14 +49,14 @@ def draw_table(tabel: list)->PrettyTable:
     title_col.insert(0, 'IDX')
     draw_schema.field_names = title_col
     for i in range(len(tabel)):
-        tabel[i].insert(0, i+1)
+        tabel[i].insert(0, i)
         draw_schema.add_row(tabel[i])
     draw_schema.align = 'c'
     return draw_schema
 
 
 
-print(draw_table(make_tabel(5, 5)))
+print(draw_table(make_tabel(3, 3)))
         
 
 
