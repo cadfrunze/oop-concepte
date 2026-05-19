@@ -1,13 +1,27 @@
 
 # a = [1, 2, 3, 4]
-# # print(a)
-# # a.pop(3)
-# # print(a)
+# # # print(a)
+# # # a.pop(3)
+# # # print(a)
 
-# # b = a
-# # print(b)
+# # # b = a
+# # # print(b)
 # print(a[4])
 
 
-for i in range(4):
-    print(i)
+# # print(3 * "!")
+
+
+# a = [1, 2]
+# b = a.copy()
+# b.insert(2, "a")
+# print(a)
+# print(b)
+
+
+
+a =[['a','b'],['c','d']]
+
+for i in range(len(a)):
+    for j in range(len(a[i])):
+        print(a[i][j])

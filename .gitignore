@@ -1,2 +1,7 @@
 __pycache__/
 *.pyc
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/vcs.xml
+.idea/oop-concepte.iml
+.idea/modules.xml
+.idea/.gitignore
